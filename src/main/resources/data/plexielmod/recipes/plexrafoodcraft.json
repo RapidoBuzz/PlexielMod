@@ -1,0 +1,42 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "1": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "2": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "3": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "4": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "5": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "6": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "7": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "8": {
+      "item": "plexielmod:supercompactplexrablock"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexrafood",
+    "count": 1
+  }
+}

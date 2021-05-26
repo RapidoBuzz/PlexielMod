@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "title": {
+      "translate": "advancements.advancement_compact_plexrablock.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_compact_plexrablock.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_compact_plexrablock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "plexielmod:compactplexrablock",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "plexielmod:compact_plexrablockcraft"
+    ]
+  },
+  "parent": "plexielmod:plexore"
+}

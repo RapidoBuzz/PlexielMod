@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="plexielmod"
+version="PlexielMod 1.16.5 - Version du mod 0.0000000000001"
+displayName="PlexielMod"
+credits="Plexiel (c)"
+displayURL="http://rapidocorp.byethost32.com/"
+logoFile="logo.png"
+authors="Plexiel (c)"
+description='''
+Un mod epic en developpement
+'''
+
+[[dependencies.plexielmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

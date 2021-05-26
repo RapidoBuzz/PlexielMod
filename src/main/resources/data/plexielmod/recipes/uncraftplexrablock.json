@@ -1,0 +1,16 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:plexrablock"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexraingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "mii_challenge": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "plexielmod:miichallenge_jvous_avais_prevenus",
+        "stream": true
+      }
+    ]
+  },
+  "plexi_armor_equip": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "plexielmod:mlg_sniper_sound_effect",
+        "stream": true
+      }
+    ]
+  },
+  "fuze_roulette_paladienne": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "plexielmod:fuze_-_cest_la_roulette_paladienne_musique_complete",
+        "stream": false
+      }
+    ]
+  }
+}

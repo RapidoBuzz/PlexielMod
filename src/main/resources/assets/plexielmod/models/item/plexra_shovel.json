@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "plexielmod:items/plexra_shovel_image"
+  }
+}

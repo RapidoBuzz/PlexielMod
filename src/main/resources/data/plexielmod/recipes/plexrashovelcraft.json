@@ -1,0 +1,24 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:plexraingot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexra_shovel",
+    "count": 1
+  }
+}

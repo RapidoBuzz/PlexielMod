@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:supercompactplexrablock"
+    },
+    "title": {
+      "translate": "advancements.advancement_3_plexraboss.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_3_plexraboss.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_3_plexraboss": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "plexielmod:plexore"
+}

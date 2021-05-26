@@ -1,0 +1,16 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "plexielmod:plexraore"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "item": "plexielmod:plexraingot",
+    "count": 1
+  }
+}

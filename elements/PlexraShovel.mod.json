@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "plexra_shovel_image",
+    "customModelName": "Normal",
+    "name": "Plexra Shovel",
+    "specialInfo": [
+      "La pelle ultime!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Ongletplexielmod"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1000,
+    "efficiency": 100000.0,
+    "attackSpeed": 20.0,
+    "enchantability": 10000,
+    "damageVsEntity": 0.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Plexirepairitemarmortool"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

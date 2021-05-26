@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "plexielmod:blocks/plexra_ore",
+    "up": "plexielmod:blocks/plexra_ore",
+    "north": "plexielmod:blocks/plexra_ore",
+    "east": "plexielmod:blocks/plexra_ore",
+    "south": "plexielmod:blocks/plexra_ore",
+    "west": "plexielmod:blocks/plexra_ore",
+    "particle": "plexielmod:blocks/plexra_ore"
+  }
+}

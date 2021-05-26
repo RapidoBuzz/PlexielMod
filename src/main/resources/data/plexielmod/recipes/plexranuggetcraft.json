@@ -1,0 +1,13 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "plexielmod:plexraingot"
+    }
+  ],
+  "result": {
+    "item": "plexielmod:plexra_nugget",
+    "count": 9
+  }
+}

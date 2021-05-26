@@ -1,0 +1,42 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "1": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "2": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "3": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "4": {
+      "item": "minecraft:barrel"
+    },
+    "5": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "6": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "7": {
+      "item": "plexielmod:compactplexrablock"
+    },
+    "8": {
+      "item": "plexielmod:compactplexrablock"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexra_barrel",
+    "count": 1
+  }
+}

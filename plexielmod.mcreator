@@ -1,0 +1,1316 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Miichallenge",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miichallenge",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexraore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraore",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "PlexielDimensionmod",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexiel_dimensionmod",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexieldimensionbiome",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexieldimensionbiome",
+      "path": "~/Data/Biomes"
+    },
+    {
+      "name": "PlexirepairitemarmortoolMakeItemGlow",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexirepairitemarmortool_make_item_glow",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Plexirepairitemarmortool",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexirepairitemarmortool",
+      "path": "~/plexiel_mod_creatif"
+    },
+    {
+      "name": "PlexiArmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexi_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexore",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexore",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Plexraingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraingot",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexraacasque",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraacasque",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "CraftlecasquePlexra",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftlecasque_plexra",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexrablock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrablock",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "PlexraBlockCraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_block_craft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Furnaceplexraore",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnaceplexraore",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Uncraftplexrablock",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncraftplexrablock",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexieldimensionallumateurcraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexieldimensionallumateurcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexieldimensionallumeur",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexieldimensionallumeur",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Plexrachestplatecraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrachestplatecraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexraleggingscraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraleggingscraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexraboots",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboots",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "FuzeIiIroulettepaladienne",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuze_ii_iroulettepaladienne",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "AdvancementPlexraChestplate",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_plexra_chestplate",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Advancementplexraleggins",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancementplexraleggins",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "AdvancementPlexraboots",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_plexraboots",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexraSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_sword",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Comcraftplexraswordcheatnet",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comcraftplexraswordcheatnet",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Advancementcraftplexrasword",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancementcraftplexrasword",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexraShovel",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_shovel",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexrapickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrapickaxe",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "PlexraAxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_axe",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexrahoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrahoe",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexrashovelcraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrashovelcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexrapickaxecraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrapickaxecraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexraaxecraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraaxecraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexrahoecraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrahoecraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvancementPlexrashovel",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_plexrashovel",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Advancementplexrapickaxe",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancementplexrapickaxe",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "AdvancementPlexraaxe",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_plexraaxe",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Advancementplexrahoe",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancementplexrahoe",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Ongletplexielmod",
+      "type": "tab",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexielmod",
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "PlexielModCreatif",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexiel_mod_creatif",
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "PlexrafoodQuandLaNourritureEstMangee",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrafood_quand_la_nourriture_est_mangee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Plexrafood",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrafood",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Compactplexrablock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compactplexrablock",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "CompactPlexrablockcraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compact_plexrablockcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvancementCompactPlexrablock",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_compact_plexrablock",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Supercompactplexrablock",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supercompactplexrablock",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Supercompactplexrablockcraft",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supercompactplexrablockcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvancementSupercompactplexrablock",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_supercompactplexrablock",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Plexrafoodcraft",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrafoodcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvancementPlexrafood",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_plexrafood",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexrabowQuandUneBalleToucheUnBloc",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabow_quand_une_balle_touche_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "PlexrabowQuandUneBalleToucheUnJoueur",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabow_quand_une_balle_touche_un_joueur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "PlexrabowQuandUneBalleToucheUneEntiteVivante",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabow_quand_une_balle_touche_une_entite_vivante",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "PlexrabowPendantQueLesBallesVolentParTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabow_pendant_que_les_balles_volent_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Plexrabow",
+      "type": "gun",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabow",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexrabowcraft",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabowcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Advancementplexrabow",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancementplexrabow",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexielDimension",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexiel_dimension",
+      "path": "~/Data/Biomes"
+    },
+    {
+      "name": "Plexrabossinventory",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabossinventory",
+      "path": "~/Data/GUI"
+    },
+    {
+      "name": "PlexrabossQuandElleEstFrappeeParUnEclair",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss_quand_elle_est_frappee_par_un_eclair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Advancement1Plexraboss",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_1_plexraboss",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexrabossQuandLentiteTombe",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss_quand_lentite_tombe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Advancement2Plexraboss",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_2_plexraboss",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexrabossQuandLentiteMeurt",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Advancement3Plexraboss",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_3_plexraboss",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexrabossQuandLentiteEstBlessee",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss_quand_lentite_est_blessee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Advancement4Plexraboss",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_4_plexraboss",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexrabossQuandLeJoueurFaitUnClicDroitSurLentite",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss_quand_le_joueur_fait_un_clic_droit_sur_lentite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Advancement5Plexraboss",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_5_plexraboss",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "PlexrabossLorsDeLapparitionInitialeDeLentite",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss_lors_de_lapparition_initiale_de_lentite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Plexraboss",
+      "type": "mob",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexraboss",
+      "path": "~/plexiel_mod_creatif"
+    },
+    {
+      "name": "SupercompactPlexrablockacompactPlexrablockcraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supercompact_plexrablockacompact_plexrablockcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "CompactPlexrablockaPlexrablock",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compact_plexrablocka_plexrablock",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Advancementplexrabow1",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancementplexrabow_1",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Plexrachest",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_barrel",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexrabarrelcraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabarrelcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvanementPlexrachest",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanement_plexrachest",
+      "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Plexrabarrelgui",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabarrelgui",
+      "path": "~/Data/GUI"
+    },
+    {
+      "name": "GuiPlexrabarrelProcedure",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_plexrabarrel_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Efficacite7",
+      "type": "enchantment",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignition",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "PlexraNugget",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_nugget",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexranuggetcraft",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexranuggetcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Plexranuggetuncraft",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexranuggetuncraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "Efficacite",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "efficacite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Propulser",
+      "type": "enchantment",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "propulser",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "EnchantementPropulserConfiguration",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchantement_propulser_configuration",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Lifesteal",
+      "type": "enchantment",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lifesteal",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "PlexraSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexra_sword_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "BackpackToucheRelachee",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack_touche_relachee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "Backpack",
+      "type": "keybind",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack",
+      "path": "~/Data/Configurations"
+    },
+    {
+      "name": "BackpackGui",
+      "type": "gui",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack_gui",
+      "path": "~/Data/GUI"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "mii_challenge",
+      "files": [
+        "miichallenge_jvous_avais_prevenus"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "plexi_armor_equip",
+      "files": [
+        "mlg_sniper_sound_effect"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "fuze_roulette_paladienne",
+      "files": [
+        "fuze_-_cest_la_roulette_paladienne_musique_complete"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.plexielmod.plexi_armor_leggings": "Plexi Armor Leggings",
+      "biome.plexielmod.plexieldimensionbiome": "Plexieldimensionbiome",
+      "advancements.advancementplexrabow_1.descr": "Tireur dans l\u0027ame!",
+      "advancements.advancement_plexrashovel.title": "Advancement Pelle en Plexra!",
+      "advancements.advancementplexrahoe.title": "Advancement houe en Plexra",
+      "item.plexielmod.plexra_nugget": "Plexra Nugget",
+      "advancements.advancement_plexrafood.title": "OH MON DIEU TU ES UN DIEU!",
+      "advancements.advancementplexrabow.title": "Advancement Arc en Plexra",
+      "advancements.advancement_plexra_chestplate.descr": "LE PLASTRON ULTIME",
+      "item.plexielmod.plexra_shovel": "Plexra Shovel",
+      "advancements.advancement_plexra_chestplate.title": "Advancement Plastron en Plexra",
+      "block.plexielmod.supercompactplexrablock": "Supercompactplexrablock",
+      "advancements.advancementplexrabow.descr": "ARC ULTIME!!!!!!!!!!!!!!!!!!",
+      "advancements.advancement_plexrafood.descr": "Tu peux maintenant aller pvp!",
+      "advancements.advancement_plexrashovel.descr": "La pelle ultime!!!",
+      "advancements.advancementplexrahoe.descr": "La houe ULTIME!!",
+      "advancements.advancementplexrabow_1.title": "Utiliser l\u0027arc en Plexra",
+      "block.plexielmod.plexra_barrel": "Barrel en Plexra",
+      "advancements.advancement_plexraboots.title": "Advancement bottes en Plexra",
+      "advancements.craftlecasque_plexra.descr": "Le meilleur casque du jeu!",
+      "item.plexielmod.plexrapickaxe": "Plexrapickaxe",
+      "block.plexielmod.compactplexrablock": "Compactplexrablock",
+      "advancements.advancement_1_plexraboss.title": "Plexra Boss Advancement",
+      "item.plexielmod.plexraingot": "Plexraingot",
+      "item.plexielmod.miichallenge": "Miichallenge",
+      "itemGroup.tabplexiel_mod_creatif": "Plexiel Mod Creatif",
+      "item.plexielmod.plexirepairitemarmortool": "Creatif Cheat Sword",
+      "advancements.advancement_plexraboots.descr": "LES BOTTES ULTIME!",
+      "item.plexielmod.miichallenge.desc": "Mii Challenge",
+      "advancements.advancement_compact_plexrablock.title": "Advancement Compact Plexra block",
+      "advancements.advancement_1_plexraboss.descr": "Même pas mal :)",
+      "block.plexielmod.plexrablock": "Plexrablock",
+      "item.plexielmod.plexrafood": "Plexra Food",
+      "item.plexielmod.plexi_armor_helmet": "Plexi Armor helmet",
+      "advancements.plexore.descr": "PLEXORE!!!",
+      "subtitles.mii_challenge": "",
+      "advancements.craftlecasque_plexra.title": "Advancement Casque en Plexra",
+      "subtitles.plexi_armor_equip": "",
+      "itemGroup.tabplexielmod": "plexielmod",
+      "advancements.advancement_supercompactplexrablock.descr": "SUPER LIBÉREUR DE PLACE!",
+      "advancements.advancement_3_plexraboss.title": "Taper Plexra boss",
+      "advancements.advanement_plexrachest.title": "Plus de place PLEXRA CHEST",
+      "item.plexielmod.fuze_ii_iroulettepaladienne.desc": "FUZE - C\u0027EST LA ROULETTE PALADIENNE (Musique Complète) ",
+      "item.plexielmod.plexraboss_spawn_egg": "Plexraboss Spawn Egg",
+      "item.plexielmod.plexi_armor_boots": "Plexi Armor Boots",
+      "advancements.advancement_plexraaxe.title": "Advancement hache en plexra",
+      "item.plexielmod.plexra_sword": "Plexra Sword",
+      "advancements.plexieldimensionallumeur.title": "Advancement PLEXRAORE À L\u0027INFINI!!!",
+      "advancements.advancement_4_plexraboss.descr": "Umm je croie que sa fonctionne pas comme ça pour m\u0027attaquer",
+      "advancements.advancement_supercompactplexrablock.title": "Advancement Super compact plexra block",
+      "block.plexielmod.plexraore": "Plexraore",
+      "key.plexielmod.backpack": "Backpack",
+      "advancements.advancement_4_plexraboss.title": "Plexra Boss il a une érreur",
+      "enchantment.plexielmod.ignition": "Ignition",
+      "advancements.advancement_5_plexraboss.title": "Tu m\u0027a fait spawn mais il manque à me tuer mais je suis Plexra Boss fait gaffe",
+      "entity.plexielmod.plexraboss": "Plexraboss",
+      "item.plexielmod.fuze_ii_iroulettepaladienne": "FUZE - C\u0027EST LA ROULETTE PALADIENNE (Musique Complète) ",
+      "advancements.advancementplexraleggins.descr": "LE PANTALON ULTIME!",
+      "advancements.advancementcraftplexrasword.title": "Advancement Plexra Sword",
+      "advancements.advancement_3_plexraboss.descr": "Il m\u0027en faut plus pour mourire",
+      "advancements.advancementcraftplexrasword.descr": "L\u0027épée ULTIME!!",
+      "item.plexielmod.plexra_axe": "Plexra Axe",
+      "item.plexielmod.plexiel_dimensionmod": "Dimension Plexiel Mod",
+      "advancements.advancementplexrapickaxe.descr": "La pioche ULTIME!!",
+      "advancements.advancementplexrapickaxe.title": "Advancement pioche en Plexra",
+      "advancements.advancement_2_plexraboss.descr": "JE REVIENDRAIS!",
+      "advancements.advancement_2_plexraboss.title": "Tuer le boss Plexra",
+      "advancements.advanement_plexrachest.descr": "Tu veux plus de place? Ben voilà tu en as!",
+      "item.plexielmod.plexrahoe": "Plexrahoe",
+      "item.plexielmod.plexi_armor_chestplate": "Plexi Armor Body",
+      "enchantment.plexielmod.propulser": "Propulser",
+      "advancements.advancement_compact_plexrablock.descr": "Faire beaucoup de place dans l\u0027invertaire!",
+      "advancements.advancement_5_plexraboss.descr": "MHAHAHAHA",
+      "advancements.advancementplexraleggins.title": "Advancement Pantalon en Plexra",
+      "advancements.plexieldimensionallumeur.descr": "Advancement PLEXRAORE À L\u0027INFINI!!!",
+      "advancements.plexore.title": "Advancement Plexore",
+      "item.plexielmod.plexrabow": "Arc Plexra",
+      "subtitles.fuze_roulette_paladienne": "",
+      "enchantment.plexielmod.lifesteal": "Lifesteal",
+      "biome.plexielmod.plexiel_dimension": "Plexiel Dimension",
+      "advancements.advancement_plexraaxe.descr": "La hache ULTIME!!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Data",
+        "children": [
+          {
+            "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "Craft",
+            "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Configurations",
+            "children": []
+          },
+          {
+            "name": "GUI",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "plexielmod",
+        "children": []
+      },
+      {
+        "name": "plexiel_mod_creatif",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "plexielmod",
+    "modName": "PlexielMod",
+    "version": "PlexielMod 1.16.5 - Version du mod 0.0000000000001",
+    "description": "Un mod epic en developpement",
+    "author": "Plexiel (c)",
+    "websiteURL": "http://rapidocorp.byethost32.com/",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "plexiel_mod",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Plexiel (c)",
+    "modElementsPackage": "net.mcreator.plexielmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

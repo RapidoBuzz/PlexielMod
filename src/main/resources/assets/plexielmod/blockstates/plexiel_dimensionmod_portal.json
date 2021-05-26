@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "plexielmod:block/plexiel_dimensionmod_portal_ew"
+    },
+    "axis=x": {
+      "model": "plexielmod:block/plexiel_dimensionmod_portal_ns"
+    }
+  }
+}

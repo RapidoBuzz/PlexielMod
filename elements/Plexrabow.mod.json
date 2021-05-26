@@ -1,0 +1,51 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "plexra_bow_image",
+    "customModelName": "Normal",
+    "name": "Arc Plexra",
+    "specialInfo": [
+      "L'ARC ULTIME!!!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Ongletplexielmod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100000,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 100.0,
+    "bulletDamage": 153.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Blocks.STONE_BUTTON"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "balle_plexra.png",
+    "onBulletHitsBlock": {
+      "name": "PlexrabowQuandUneBalleToucheUnBloc"
+    },
+    "onBulletHitsPlayer": {
+      "name": "PlexrabowQuandUneBalleToucheUnJoueur"
+    },
+    "onBulletHitsEntity": {
+      "name": "PlexrabowQuandUneBalleToucheUneEntiteVivante"
+    },
+    "onBulletFlyingTick": {
+      "name": "PlexrabowPendantQueLesBallesVolentParTick"
+    }
+  }
+}

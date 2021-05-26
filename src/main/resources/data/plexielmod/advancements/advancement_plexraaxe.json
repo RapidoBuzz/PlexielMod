@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:plexra_axe"
+    },
+    "title": {
+      "translate": "advancements.advancement_plexraaxe.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_plexraaxe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_plexraaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "plexielmod:plexra_axe",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "plexielmod:plexraaxecraft"
+    ]
+  },
+  "parent": "plexielmod:plexore"
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "plexi_repair_armor",
+    "customModelName": "Normal",
+    "name": "Creatif Cheat Sword",
+    "specialInfo": [
+      "Reparer l'armure de Plexi"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:PlexielModCreatif"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 100000,
+    "efficiency": 100000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 100000,
+    "damageVsEntity": 100000.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Plexirepairitemarmortool"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

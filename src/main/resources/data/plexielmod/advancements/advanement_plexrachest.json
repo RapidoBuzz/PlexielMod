@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:plexra_barrel"
+    },
+    "title": {
+      "translate": "advancements.advanement_plexrachest.title"
+    },
+    "description": {
+      "translate": "advancements.advanement_plexrachest.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advanement_plexrachest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "plexielmod:plexra_barrel",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "plexielmod:plexrabarrelcraft"
+    ]
+  },
+  "parent": "plexielmod:plexore"
+}

@@ -1,0 +1,42 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "1": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "2": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "3": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "4": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "5": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "6": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "7": {
+      "item": "plexielmod:plexra_nugget"
+    },
+    "8": {
+      "item": "plexielmod:plexra_nugget"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexraingot",
+    "count": 1
+  }
+}

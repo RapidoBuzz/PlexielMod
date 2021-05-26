@@ -1,0 +1,30 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:plexraingot"
+    },
+    "1": {
+      "item": "plexielmod:plexraingot"
+    },
+    "2": {
+      "item": "plexielmod:plexraingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexrapickaxe",
+    "count": 1
+  }
+}

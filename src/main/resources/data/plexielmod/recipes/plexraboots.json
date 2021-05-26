@@ -1,0 +1,26 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "plexielmod:plexraingot"
+    },
+    "2": {
+      "item": "plexielmod:plexraingot"
+    },
+    "3": {
+      "item": "plexielmod:plexraingot"
+    },
+    "5": {
+      "item": "plexielmod:plexraingot"
+    }
+  },
+  "result": {
+    "item": "plexielmod:plexi_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "plexielmod:supercompactplexrablock"
+    }
+  ],
+  "result": {
+    "item": "plexielmod:compactplexrablock",
+    "count": 9
+  }
+}

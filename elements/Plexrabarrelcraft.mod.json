@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "Blocks.BARREL"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      },
+      {
+        "value": "CUSTOM:Compactplexrablock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Plexrachest"
+    },
+    "name": "plexrabarrelcraft",
+    "namespace": "mod"
+  }
+}

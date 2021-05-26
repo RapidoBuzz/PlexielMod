@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "mii_challenge",
+    "name": "Miichallenge",
+    "description": "Mii Challenge",
+    "creativeTab": {
+      "value": "CUSTOM:Ongletplexielmod"
+    },
+    "music": {
+      "value": "CUSTOM:mii_challenge"
+    },
+    "specialInfo": [
+      "Musique"
+    ],
+    "hasGlow": false
+  }
+}

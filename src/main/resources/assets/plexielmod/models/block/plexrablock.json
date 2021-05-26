@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "plexielmod:blocks/plexra_block_image",
+    "up": "plexielmod:blocks/plexra_block_image",
+    "north": "plexielmod:blocks/plexra_block_image",
+    "east": "plexielmod:blocks/plexra_block_image",
+    "south": "plexielmod:blocks/plexra_block_image",
+    "west": "plexielmod:blocks/plexra_block_image",
+    "particle": "plexielmod:blocks/plexra_block_image"
+  }
+}

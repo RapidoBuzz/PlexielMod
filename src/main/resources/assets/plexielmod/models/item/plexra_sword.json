@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "plexielmod:items/com_plexra_sword_image_package_net"
+  }
+}

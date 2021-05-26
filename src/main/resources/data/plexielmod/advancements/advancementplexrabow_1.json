@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:plexrabow"
+    },
+    "title": {
+      "translate": "advancements.advancementplexrabow_1.title"
+    },
+    "description": {
+      "translate": "advancements.advancementplexrabow_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancementplexrabow_1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "plexielmod:plexore"
+}

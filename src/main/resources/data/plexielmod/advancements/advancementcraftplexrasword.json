@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:plexra_sword"
+    },
+    "title": {
+      "translate": "advancements.advancementcraftplexrasword.title"
+    },
+    "description": {
+      "translate": "advancements.advancementcraftplexrasword.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancementcraftplexrasword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "plexielmod:plexra_sword",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "plexielmod:comcraftplexraswordcheatnet"
+    ]
+  },
+  "parent": "plexielmod:plexore"
+}

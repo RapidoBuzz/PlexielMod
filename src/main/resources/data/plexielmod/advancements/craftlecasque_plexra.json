@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:plexi_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.craftlecasque_plexra.title"
+    },
+    "description": {
+      "translate": "advancements.craftlecasque_plexra.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craftlecasque_plexra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "plexielmod:plexi_armor_helmet",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "plexielmod:plexraacasque"
+    ]
+  },
+  "parent": "plexielmod:plexore"
+}

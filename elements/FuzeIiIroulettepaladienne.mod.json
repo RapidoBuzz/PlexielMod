@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "fuze_roulette_image",
+    "name": "FUZE - C'EST LA ROULETTE PALADIENNE (Musique Complète) ",
+    "description": "FUZE - C'EST LA ROULETTE PALADIENNE (Musique Complète) ",
+    "creativeTab": {
+      "value": "CUSTOM:Ongletplexielmod"
+    },
+    "music": {
+      "value": "CUSTOM:fuze_roulette_paladienne"
+    },
+    "specialInfo": [
+      "FUZE - C'EST LA ROULETTE PALADIENNE (Musique Complète)"
+    ],
+    "hasGlow": false
+  }
+}
