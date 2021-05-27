@@ -940,7 +940,7 @@
       "name": "Efficacite7",
       "type": "enchantment",
       "sortid": 72,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "ids": {},
       "registry_name": "ignition",

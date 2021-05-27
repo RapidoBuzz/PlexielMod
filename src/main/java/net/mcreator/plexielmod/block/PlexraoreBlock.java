@@ -143,8 +143,8 @@ public class PlexraoreBlock extends PlexielmodModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 64)).range(7)
-					.square().func_242731_b(16);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(7).square()
+					.func_242731_b(16);
 			event.getRegistry().register(feature.setRegistryName("plexraore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("plexielmod:plexraore"), configuredFeature);
 		}
