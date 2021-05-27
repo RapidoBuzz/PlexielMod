@@ -15,7 +15,6 @@ import net.mcreator.plexielmod.item.PlexrapickaxeItem;
 import net.mcreator.plexielmod.item.PlexraSwordItem;
 import net.mcreator.plexielmod.item.PlexraShovelItem;
 import net.mcreator.plexielmod.item.PlexraAxeItem;
-import net.mcreator.plexielmod.item.PlexielDimensionmodItem;
 import net.mcreator.plexielmod.PlexielmodModElements;
 
 @PlexielmodModElements.ModElement.Tag
