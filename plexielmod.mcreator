@@ -22,19 +22,6 @@
       "path": "~/plexielmod"
     },
     {
-      "name": "PlexielDimensionmod",
-      "type": "dimension",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plexiel_dimensionmod",
-      "metadata": {
-        "ep": true
-      },
-      "path": "~/plexielmod"
-    },
-    {
       "name": "Plexieldimensionbiome",
       "type": "biome",
       "sortid": 4,
@@ -953,7 +940,7 @@
       "name": "Efficacite7",
       "type": "enchantment",
       "sortid": 72,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "ignition",
@@ -1140,6 +1127,36 @@
       "ids": {},
       "registry_name": "backpack_gui",
       "path": "~/Data/GUI"
+    },
+    {
+      "name": "Discobloc",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "discobloc",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Discobloccraft",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "discobloccraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvancementDiscobloc",
+      "type": "achievement",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_discobloc",
+      "path": "~/Data/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1208,6 +1225,7 @@
       "advancements.plexore.descr": "PLEXORE!!!",
       "subtitles.mii_challenge": "",
       "advancements.craftlecasque_plexra.title": "Advancement Casque en Plexra",
+      "advancements.advancement_discobloc.title": "Créer un bloc disco",
       "subtitles.plexi_armor_equip": "",
       "itemGroup.tabplexielmod": "plexielmod",
       "advancements.advancement_supercompactplexrablock.descr": "SUPER LIBÉREUR DE PLACE!",
@@ -1233,7 +1251,6 @@
       "advancements.advancement_3_plexraboss.descr": "Il m\u0027en faut plus pour mourire",
       "advancements.advancementcraftplexrasword.descr": "L\u0027épée ULTIME!!",
       "item.plexielmod.plexra_axe": "Plexra Axe",
-      "item.plexielmod.plexiel_dimensionmod": "Dimension Plexiel Mod",
       "advancements.advancementplexrapickaxe.descr": "La pioche ULTIME!!",
       "advancements.advancementplexrapickaxe.title": "Advancement pioche en Plexra",
       "advancements.advancement_2_plexraboss.descr": "JE REVIENDRAIS!",
@@ -1246,7 +1263,9 @@
       "advancements.advancement_5_plexraboss.descr": "MHAHAHAHA",
       "advancements.advancementplexraleggins.title": "Advancement Pantalon en Plexra",
       "advancements.plexieldimensionallumeur.descr": "Advancement PLEXRAORE À L\u0027INFINI!!!",
+      "advancements.advancement_discobloc.descr": "Pour la décoration bloc par Alicia and charlie",
       "advancements.plexore.title": "Advancement Plexore",
+      "block.plexielmod.discobloc": "Discobloc",
       "item.plexielmod.plexrabow": "Arc Plexra",
       "subtitles.fuze_roulette_paladienne": "",
       "enchantment.plexielmod.lifesteal": "Lifesteal",
@@ -1279,6 +1298,10 @@
           {
             "name": "GUI",
             "children": []
+          },
+          {
+            "name": "Structure",
+            "children": []
           }
         ]
       },
@@ -1295,7 +1318,7 @@
   "workspaceSettings": {
     "modid": "plexielmod",
     "modName": "PlexielMod",
-    "version": "PlexielMod 1.16.5 - Version du mod 0.0000000000001",
+    "version": "PlexielMod 1.16.5 - Version du mod 0.0000000000003",
     "description": "Un mod epic en developpement",
     "author": "Plexiel (c)",
     "websiteURL": "http://rapidocorp.byethost32.com/",

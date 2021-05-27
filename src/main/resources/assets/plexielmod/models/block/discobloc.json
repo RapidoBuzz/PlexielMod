@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "plexielmod:blocks/pastel_block",
+    "up": "plexielmod:blocks/pastel_block",
+    "north": "plexielmod:blocks/pastel_block",
+    "east": "plexielmod:blocks/pastel_block",
+    "south": "plexielmod:blocks/pastel_block",
+    "west": "plexielmod:blocks/pastel_block",
+    "particle": "plexielmod:blocks/pastel_block"
+  }
+}

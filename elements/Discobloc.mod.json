@@ -2,19 +2,19 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "plexra_ore",
-    "textureTop": "plexra_ore",
-    "textureLeft": "plexra_ore",
-    "textureFront": "plexra_ore",
-    "textureRight": "plexra_ore",
-    "textureBack": "plexra_ore",
+    "texture": "pastel_block",
+    "textureTop": "pastel_block",
+    "textureLeft": "pastel_block",
+    "textureFront": "pastel_block",
+    "textureRight": "pastel_block",
+    "textureBack": "pastel_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
-    "particleTexture": "plexra_ore",
+    "itemTexture": "pastel_block",
+    "particleTexture": "pastel_block",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -32,20 +32,20 @@
         "subtract": false
       }
     ],
-    "name": "Plexraore",
+    "name": "Discobloc",
     "specialInfo": [
-      "Minerais principal du mod"
+      "Pour la décoration bloc par Alicia and charlie"
     ],
-    "hardness": 1031.0,
-    "resistance": 1031.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Ongletplexielmod"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Plexraore"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -74,14 +74,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "ANCIENT_DEBRIS"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CRIT"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -103,18 +103,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 16,
-    "frequencyOnChunk": 64,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 7
+    "maxGenerateHeight": 64
   }
 }
