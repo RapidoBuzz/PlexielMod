@@ -128,8 +128,6 @@ public class Efficacite7Enchantment extends PlexielmodModElements.ModElement {
 
 		@Override
 		public boolean canApplyAtEnchantingTable(ItemStack stack) {
-			if (stack.getItem() == new ItemStack(PlexielDimensionmodItem.block, (int) (1)).getItem())
-				return true;
 			if (stack.getItem() == new ItemStack(PlexraShovelItem.block, (int) (1)).getItem())
 				return true;
 			if (stack.getItem() == new ItemStack(PlexrapickaxeItem.block, (int) (1)).getItem())

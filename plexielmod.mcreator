@@ -941,7 +941,7 @@
       "type": "enchantment",
       "sortid": 72,
       "compiles": false,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "ignition",
       "path": "~/plexielmod"
