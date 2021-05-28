@@ -1,6 +1,7 @@
 
 package net.mcreator.plexielmod.gui;
 
+import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -35,11 +36,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @PlexielmodModElements.ModElement.Tag
-public class BackpackGuiGui extends PlexielmodModElements.ModElement {
+public class GuiPlexraBackpackGui extends PlexielmodModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public BackpackGuiGui(PlexielmodModElements instance) {
-		super(instance, 81);
+	public GuiPlexraBackpackGui(PlexielmodModElements instance) {
+		super(instance, 88);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -50,12 +51,12 @@ public class BackpackGuiGui extends PlexielmodModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("backpack_gui"));
+			event.getRegistry().register(containerType.setRegistryName("gui_plexra_backpack"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, BackpackGuiGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, GuiPlexraBackpackGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -74,7 +75,7 @@ public class BackpackGuiGui extends PlexielmodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(0);
+			this.internal = new ItemStackHandler(7);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -112,13 +113,27 @@ public class BackpackGuiGui extends PlexielmodModElements.ModElement {
 					}
 				}
 			}
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 5, 19) {
+			}));
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 23, 19) {
+			}));
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 41, 19) {
+			}));
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 59, 19) {
+			}));
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 77, 19) {
+			}));
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 95, 19) {
+			}));
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 113, 19) {
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 14 + 8 + sj * 18, 79 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 4 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 14 + 8 + si * 18, 79 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 4 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -137,18 +152,18 @@ public class BackpackGuiGui extends PlexielmodModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 0) {
-					if (!this.mergeItemStack(itemstack1, 0, this.inventorySlots.size(), true)) {
+				if (index < 7) {
+					if (!this.mergeItemStack(itemstack1, 7, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 0, false)) {
-					if (index < 0 + 27) {
-						if (!this.mergeItemStack(itemstack1, 0 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 7, false)) {
+					if (index < 7 + 27) {
+						if (!this.mergeItemStack(itemstack1, 7 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 0, 0 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 7, 7 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}

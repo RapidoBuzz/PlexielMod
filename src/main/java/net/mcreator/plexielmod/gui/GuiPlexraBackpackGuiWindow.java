@@ -16,21 +16,21 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class BackpackGuiGuiWindow extends ContainerScreen<BackpackGuiGui.GuiContainerMod> {
+public class GuiPlexraBackpackGuiWindow extends ContainerScreen<GuiPlexraBackpackGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	public BackpackGuiGuiWindow(BackpackGuiGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public GuiPlexraBackpackGuiWindow(GuiPlexraBackpackGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 204;
-		this.ySize = 244;
+		this.xSize = 176;
+		this.ySize = 175;
 	}
-	private static final ResourceLocation texture = new ResourceLocation("plexielmod:textures/backpack_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("plexielmod:textures/gui_plexra_backpack.png");
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -66,7 +66,7 @@ public class BackpackGuiGuiWindow extends ContainerScreen<BackpackGuiGui.GuiCont
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Backpack en d\u00E9veloppement...", 35, 70, -3407872);
+		this.font.drawString(ms, "Plexra Backpack", 6, 4, -3407872);
 	}
 
 	@Override

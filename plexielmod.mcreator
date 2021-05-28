@@ -1011,16 +1011,6 @@
       "path": "~/Data/Configurations"
     },
     {
-      "name": "BackpackGui",
-      "type": "gui",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "backpack_gui",
-      "path": "~/Data/GUI"
-    },
-    {
       "name": "Discobloc",
       "type": "block",
       "sortid": 82,
@@ -1079,6 +1069,16 @@
       "ids": {},
       "registry_name": "advancement_plexrabackpack",
       "path": "~/Data/Advancements"
+    },
+    {
+      "name": "GuiPlexraBackpack",
+      "type": "gui",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_plexra_backpack",
+      "path": "~/Data/GUI"
     }
   ],
   "variable_elements": [],

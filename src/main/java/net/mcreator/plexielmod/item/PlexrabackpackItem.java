@@ -36,8 +36,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.plexielmod.itemgroup.OngletplexielmodItemGroup;
-import net.mcreator.plexielmod.gui.BackpackGuiGuiWindow;
-import net.mcreator.plexielmod.gui.BackpackGuiGui;
+import net.mcreator.plexielmod.gui.GuiPlexraBackpackGuiWindow;
+import net.mcreator.plexielmod.gui.GuiPlexraBackpackGui;
 import net.mcreator.plexielmod.PlexielmodModElements;
 
 import javax.annotation.Nullable;
@@ -58,7 +58,7 @@ public class PlexrabackpackItem extends PlexielmodModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void onItemDropped(ItemTossEvent event) {
 		if (event.getEntityItem().getItem().getItem() == block) {
-			if (Minecraft.getInstance().currentScreen instanceof BackpackGuiGuiWindow) {
+			if (Minecraft.getInstance().currentScreen instanceof GuiPlexraBackpackGuiWindow) {
 				Minecraft.getInstance().player.closeScreen();
 			}
 		}
@@ -108,7 +108,7 @@ public class PlexrabackpackItem extends PlexielmodModElements.ModElement {
 						PacketBuffer packetBuffer = new PacketBuffer(Unpooled.buffer());
 						packetBuffer.writeBlockPos(new BlockPos(x, y, z));
 						packetBuffer.writeByte(hand == Hand.MAIN_HAND ? 0 : 1);
-						return new BackpackGuiGui.GuiContainerMod(id, inventory, packetBuffer);
+						return new GuiPlexraBackpackGui.GuiContainerMod(id, inventory, packetBuffer);
 					}
 				}, buf -> {
 					buf.writeBlockPos(new BlockPos(x, y, z));
