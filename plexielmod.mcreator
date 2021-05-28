@@ -863,16 +863,6 @@
       "path": "~/Data/Advancements"
     },
     {
-      "name": "Plexrachest",
-      "type": "block",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plexra_barrel",
-      "path": "~/plexielmod"
-    },
-    {
       "name": "Plexrabarrelcraft",
       "type": "recipe",
       "sortid": 68,
@@ -891,50 +881,6 @@
       "ids": {},
       "registry_name": "advanement_plexrachest",
       "path": "~/Data/Advancements"
-    },
-    {
-      "name": "Plexrabarrelgui",
-      "type": "gui",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plexrabarrelgui",
-      "path": "~/Data/GUI"
-    },
-    {
-      "name": "GuiPlexrabarrelProcedure",
-      "type": "procedure",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gui_plexrabarrel_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Data/Configurations"
     },
     {
       "name": "Efficacite7",
@@ -1205,7 +1151,6 @@
       "advancements.advancement_plexrashovel.descr": "La pelle ultime!!!",
       "advancements.advancementplexrahoe.descr": "La houe ULTIME!!",
       "advancements.advancementplexrabow_1.title": "Utiliser l\u0027arc en Plexra",
-      "block.plexielmod.plexra_barrel": "Barrel en Plexra",
       "advancements.advancement_plexraboots.title": "Advancement bottes en Plexra",
       "advancements.craftlecasque_plexra.descr": "Le meilleur casque du jeu!",
       "item.plexielmod.plexrapickaxe": "Plexrapickaxe",
