@@ -7,28 +7,28 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Plexrablock"
-      },
-      {
-        "value": "CUSTOM:Plexrablock"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
         "value": "CUSTOM:Plexrablock"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.CHEST"
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PlexielDimensionmod"
+      "value": "CUSTOM:Plexrabackpack"
     },
-    "name": "plexieldimensionallumateurcraft",
+    "name": "plexrabackpackcraft",
     "namespace": "mod"
   }
 }

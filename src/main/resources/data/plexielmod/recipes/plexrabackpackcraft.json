@@ -1,0 +1,16 @@
+{
+  "group": "plexielmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "plexielmod:plexrablock"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plexielmod:plexrabackpack",
+    "count": 1
+  }
+}

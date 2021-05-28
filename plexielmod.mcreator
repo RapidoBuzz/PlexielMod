@@ -151,16 +151,6 @@
       "path": "~/Data/Craft"
     },
     {
-      "name": "Plexieldimensionallumateurcraft",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plexieldimensionallumateurcraft",
-      "path": "~/Data/Craft"
-    },
-    {
       "name": "Plexieldimensionallumeur",
       "type": "achievement",
       "sortid": 15,
@@ -1103,6 +1093,36 @@
       "ids": {},
       "registry_name": "advancement_discobloc",
       "path": "~/Data/Advancements"
+    },
+    {
+      "name": "Plexrabackpack",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabackpack",
+      "path": "~/plexielmod"
+    },
+    {
+      "name": "Plexrabackpackcraft",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plexrabackpackcraft",
+      "path": "~/Data/Craft"
+    },
+    {
+      "name": "AdvancementPlexrabackpack",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_plexrabackpack",
+      "path": "~/Data/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1135,6 +1155,7 @@
   "language_map": {
     "en_us": {
       "item.plexielmod.plexi_armor_leggings": "Plexi Armor Leggings",
+      "item.plexielmod.plexrabackpack": "Plexrabackpack",
       "biome.plexielmod.plexieldimensionbiome": "Plexieldimensionbiome",
       "advancements.advancementplexrabow_1.descr": "Tireur dans l\u0027ame!",
       "advancements.advancement_plexrashovel.title": "Advancement Pelle en Plexra!",
@@ -1166,6 +1187,7 @@
       "advancements.advancement_1_plexraboss.descr": "Même pas mal :)",
       "block.plexielmod.plexrablock": "Plexrablock",
       "item.plexielmod.plexrafood": "Plexra Food",
+      "advancements.advancement_plexrabackpack.descr": "Backpack en Plexra!! (en développement)",
       "item.plexielmod.plexi_armor_helmet": "Plexi Armor helmet",
       "advancements.plexore.descr": "PLEXORE!!!",
       "subtitles.mii_challenge": "",
@@ -1207,6 +1229,7 @@
       "advancements.advancement_compact_plexrablock.descr": "Faire beaucoup de place dans l\u0027invertaire!",
       "advancements.advancement_5_plexraboss.descr": "MHAHAHAHA",
       "advancements.advancementplexraleggins.title": "Advancement Pantalon en Plexra",
+      "advancements.advancement_plexrabackpack.title": "Backpack en Plexra!!",
       "advancements.plexieldimensionallumeur.descr": "Advancement PLEXRAORE À L\u0027INFINI!!!",
       "advancements.advancement_discobloc.descr": "Pour la décoration bloc par Alicia and charlie",
       "advancements.plexore.title": "Advancement Plexore",

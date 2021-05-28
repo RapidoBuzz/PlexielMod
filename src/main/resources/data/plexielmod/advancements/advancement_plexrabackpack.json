@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "plexielmod:plexrabackpack"
+    },
+    "title": {
+      "translate": "advancements.advancement_plexrabackpack.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_plexrabackpack.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_plexrabackpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "plexielmod:plexrabackpack",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "plexielmod:plexrabackpackcraft"
+    ]
+  },
+  "parent": "plexielmod:plexore"
+}
